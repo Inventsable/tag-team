@@ -20,13 +20,14 @@
           />
           <Button
             flat
+            tooltip="Remove tag with key/value"
             icon="tag-minus"
             :disabled="!hasMatchingKeyOrValue"
             @click="removeTag"
           />
           <Button
             flat
-            tooltip="Remove tag with key/value"
+            tooltip="Remove all tags"
             icon="tag-remove"
             :disabled="!tagList.length"
             @click="removeAllTags"
