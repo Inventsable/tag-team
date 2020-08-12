@@ -1,2 +1,5 @@
 node_modules/
 sandbox/
+.certignore
+.certinfo
+.bombino
